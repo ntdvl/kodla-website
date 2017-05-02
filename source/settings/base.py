@@ -63,7 +63,8 @@ INSTALLED_APPS = [
     'speaker',
     'program',
     'sponsor',
-    'gallery'
+    'gallery',
+    'screen',
 ]
 
 MIDDLEWARE_CLASSES = [

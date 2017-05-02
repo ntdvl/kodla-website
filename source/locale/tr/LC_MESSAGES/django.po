@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-25 19:18+0300\n"
+"POT-Creation-Date: 2017-05-02 18:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: source/apps/activity/admin.py:20 source/apps/activity/models.py:109
+#: source/apps/screen/models.py:51
 msgid "Document"
 msgstr "Doküman"
 
@@ -95,7 +96,8 @@ msgstr "Yıl"
 #: source/apps/activity/models.py:230 source/apps/core/models.py:29
 #: source/apps/form/models.py:13 source/apps/gallery/models.py:17
 #: source/apps/gallery/models.py:59 source/apps/program/models.py:11
-#: source/apps/program/models.py:52 source/apps/speaker/models.py:40
+#: source/apps/program/models.py:52 source/apps/screen/models.py:17
+#: source/apps/screen/models.py:57 source/apps/speaker/models.py:40
 #: source/apps/speaker/models.py:76 source/apps/speaker/models.py:135
 #: source/apps/sponsor/models.py:18 source/apps/sponsor/models.py:41
 msgid "Active"
@@ -244,6 +246,7 @@ msgid "Update Date"
 msgstr "Güncelleme Tarihi"
 
 #: source/apps/core/models.py:22 source/apps/gallery/models.py:14
+#: source/apps/screen/models.py:10 source/apps/screen/models.py:30
 #: source/apps/speaker/models.py:134 source/apps/sponsor/models.py:14
 #: source/apps/sponsor/models.py:39
 msgid "Name"
@@ -318,7 +321,7 @@ msgstr "Galeri İçeriği"
 msgid "Gallery"
 msgstr "Galeri"
 
-#: source/apps/gallery/models.py:15
+#: source/apps/gallery/models.py:15 source/apps/screen/models.py:31
 msgid "Tag"
 msgstr "Etiket"
 
@@ -384,6 +387,62 @@ msgstr "Başlangıç Zamanı"
 #: source/apps/program/models.py:50
 msgid "End Time"
 msgstr "Bitiş Zamanı"
+
+#: source/apps/screen/admin.py:15 source/apps/screen/admin.py:58
+msgid "Base Informations"
+msgstr "Temel Bilgiler"
+
+#: source/apps/screen/admin.py:18
+msgid "Screen Informations"
+msgstr "Ekran Bilgileri"
+
+#: source/apps/screen/admin.py:39
+msgid "Regenerate screen secret"
+msgstr "Ekran gizli anahtarını yeniden oluştur"
+
+#: source/apps/screen/admin.py:61
+msgid "Screen Content Informations"
+msgstr "Ekran İçeriği Bilgileri"
+
+#: source/apps/screen/apps.py:8 source/apps/screen/models.py:20
+msgid "Screen"
+msgstr "Ekran"
+
+#: source/apps/screen/models.py:12
+msgid "Screen Key"
+msgstr "Ekran Anahtarı"
+
+#: source/apps/screen/models.py:15
+msgid "Screen Secret"
+msgstr "Ekran Gizli Anahtarı"
+
+#: source/apps/screen/models.py:21 source/apps/screen/models.py:60
+msgid "Screens"
+msgstr "Ekranlar"
+
+#: source/apps/screen/models.py:34
+msgid "Document Kind"
+msgstr "Doküman Türü"
+
+#: source/apps/screen/models.py:35
+msgid "Document Kinds"
+msgstr "Doküman Türleri"
+
+#: source/apps/screen/models.py:55
+msgid "Text"
+msgstr "Yazı"
+
+#: source/apps/screen/models.py:58
+msgid "Kind"
+msgstr "Tür"
+
+#: source/apps/screen/models.py:64
+msgid "Screen Content"
+msgstr "Ekran İçeriği"
+
+#: source/apps/screen/models.py:65
+msgid "Screen Contents"
+msgstr "Ekran İçeriği"
 
 #: source/apps/speaker/admin.py:32 source/apps/speaker/admin.py:67
 #: source/apps/speaker/models.py:35
