@@ -55,6 +55,9 @@ INSTALLED_APPS = [
     'adminsortable',
     'easy_thumbnails',
     'snowpenguin.django.recaptcha2',
+    'rest_framework',
+    'channels',
+    'channels_api',
 
     # Internal Applications
     'core',
@@ -121,6 +124,15 @@ TWITTER_CONSUMER_KEY = TWITTER_CONSUMER_KEY
 TWITTER_CONSUMER_SECRET = TWITTER_CONSUMER_SECRET
 TWITTER_ACCESS_TOKEN = TWITTER_ACCESS_TOKEN
 TWITTER_ACCESS_TOKEN_SECRET = TWITTER_ACCESS_TOKEN_SECRET
+
+
+# Django Channels Api
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'asgiref.inmemory.ChannelLayer',
+        'ROUTING': "api.routing.channel_routing",
+    },
+}
 
 
 # Internationalization

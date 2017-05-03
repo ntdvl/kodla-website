@@ -34,7 +34,11 @@ urlpatterns = [
     # Pages
     url(r'^$', IndexView.as_view(), name='index'),
     url(r'^(?P<year>\w+)?/$', IndexView.as_view(), name='index-year'),
-    url(r'^get-tweets/$', get_tweets, name='get-tweets')
+    url(r'^get-tweets/$', get_tweets, name='get-tweets'),
+
+    # Api
+    url(r'^api/', include('api.urls', namespace='api')),
+    url(r'^channels-api/', include('channels_api.urls'))
 ]
 
 
